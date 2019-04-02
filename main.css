@@ -92,6 +92,13 @@ input, textarea {
     font-size: 1rem;
 }
 
+#submit {
+    margin-top: 1rem;
+    width: 20%;
+    background-color: #e87f62;
+    color: white;
+}
+
 footer {
     background-color: #e87f62;
     margin: 2rem 0 0 0;
