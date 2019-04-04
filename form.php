@@ -14,13 +14,6 @@ if ($_SERVER["REQUEST METHOD"] == "POST") {
         return $data;
     }
 
-    if (empty($name) OR empty($message)) {
-        // Set a 400 response code.
-        http_response_code(400);
-        echo "There was a problem with your submission. Please try again.";
-        exit;
-    }
-
     // Recipient email address
     $recipient = "goddard.gcw@gmail.com";
 
@@ -36,18 +29,14 @@ if ($_SERVER["REQUEST METHOD"] == "POST") {
     $email_headers = "From: $name <$email>";
 
     // Send email
+    // **** INCOMPLETE >> NEEDS FINISHING ****
     if (mail($recipient, $subject, $email_content, $email_headers)) {
-        // Set a 200 response code.
         http_response_code(200);
-        echo "Thank you! Your message has been sent.";
+        echo "Thank you, your message has been sent.";
     } else {
-        // Set a 500 resonse code.
         http_response_code(500);
-        echo "Sorry, your message could not be sent."
+        echo "Sorry, your message couldn't be sent.";
     }
-} else {
-    // Not a POST request, set a 403 resopnse code.
-    http_response_code(403);
-    echo "There was a problem with your submission. Please try again.";
 }
+    
 ?>
