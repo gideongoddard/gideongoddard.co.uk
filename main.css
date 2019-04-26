@@ -40,14 +40,14 @@ p {
 }
 
 main {
-    padding: 0 10%;
+    padding: 0 15%;
 }
 
 #intro {
     background-color: dimgrey;
     height: 25rem;
     color: white;
-    padding: 2rem 10% 6rem 10%;
+    padding: 2rem 15% 6rem 15%;
 }
 
 .heading {
