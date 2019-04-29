@@ -60,6 +60,7 @@ main {
     border: 1px solid #e87f62;
     padding: 0;
     background-color: white;
+    max-width: 100%;
 }
 
 nav {
