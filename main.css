@@ -10,7 +10,7 @@ html, body, footer {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4vw;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.5vw;
 }
 
 h4 {
@@ -60,7 +60,6 @@ main {
     border: 1px solid #e87f62;
     padding: 0;
     background-color: white;
-    max-width: 100%;
 }
 
 nav {
@@ -114,3 +113,6 @@ footer p {
     padding: 1rem 0;
     font-size: 1.5rem;
 }
+
+/* RESPONSIVE STYLING */
+
