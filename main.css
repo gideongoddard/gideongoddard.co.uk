@@ -46,7 +46,7 @@ main {
 #intro {
     background-color: dimgrey;
     color: white;
-    padding: 2rem 15% 6rem 15%;
+    padding: 2rem 15% 2rem 15%;
 }
 
 .heading {
@@ -116,4 +116,49 @@ footer p {
 }
 
 /* RESPONSIVE STYLING */
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 6vw;
+    }
+    
+    h3 {
+        font-size: 3.5vw;
+    }
+    
+    #intro img {
+        max-width: 50%;
+        height: auto;
+    }
+    
+    main {
+        padding: 0 10%;
+    }
+}
 
+@media only screen and (max-width: 675px) {
+    h1 {
+        font-size: 8vw;
+    }
+    
+    h3 {
+        font-size: 5vw;
+    }
+    
+    #intro img {
+        max-width: 80%;
+        height: auto;
+    }
+    
+    nav {
+        padding: 1rem 0.25rem;
+    }
+    
+    nav a {
+        font-size: 1rem;
+        padding: 1rem 0.25rem;
+    }
+    
+    main {
+        padding: 0 5%;
+    }
+}
