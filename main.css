@@ -78,7 +78,7 @@ nav a {
 
 form {
     background-color: dimgrey;
-    padding: 1rem 2rem;
+    padding: 3% 2%;
     border-radius: 10px;
 }
 
@@ -90,15 +90,15 @@ label {
 }
 
 input, textarea {
-    width: 95%;
+    width: 92.5%;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1.5% 2.5%;
     font-size: 1rem;
 }
 
 #submit {
     margin-top: 1rem;
-    width: 20%;
+    width: 50%;
     background-color: #e87f62;
     color: white;
 }
@@ -133,6 +133,10 @@ footer p {
     main {
         padding: 0 10%;
     }
+    
+    input, textarea {
+        padding: 2% 2.5%;
+    }
 }
 
 @media only screen and (max-width: 675px) {
@@ -160,5 +164,9 @@ footer p {
     
     main {
         padding: 0 5%;
+    }
+    
+    input, textarea {
+        padding: 2.5%;
     }
 }
