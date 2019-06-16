@@ -37,7 +37,7 @@ h6 {
 
 p {
     font-size: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 main {
@@ -79,6 +79,16 @@ nav a {
 
 /* TIMELINE STYLING */
 
+.timeline-listing {
+    border-bottom: 1px solid dimgrey;
+    margin: 0 0 10px 0;
+}
+
+.timeline-listing:first-child {
+    border-top: 1px solid dimgrey;
+    padding-top: 10px;
+}
+
 /* END OF TIMELINE STYLING */
 
 form {
@@ -106,6 +116,7 @@ input, textarea {
     width: 50%;
     background-color: #e87f62;
     color: white;
+    cursor: pointer;
 }
 
 footer {
