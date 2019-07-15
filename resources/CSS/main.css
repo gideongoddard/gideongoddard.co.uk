@@ -91,6 +91,25 @@ nav a {
 
 /* END OF TIMELINE STYLING */
 
+#projects-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 220px;
+    height: 220px;
+    margin: 0 1% 1% 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
 form {
     background-color: dimgrey;
     padding: 3% 2%;
@@ -153,6 +172,11 @@ footer p {
     input, textarea {
         padding: 2% 2.5%;
     }
+
+    .project {
+        width: 265px;
+        height: 265px;
+    }
 }
 
 @media only screen and (max-width: 675px) {
@@ -184,5 +208,10 @@ footer p {
     
     input, textarea {
         padding: 2.5%;
+    }
+
+    .project {
+        width: 300px;
+        height: 300px;
     }
 }
