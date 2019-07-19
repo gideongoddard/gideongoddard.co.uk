@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link type="text/css" rel="stylesheet" href="./Resources/CSS/main.css">
         <link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
+        <
     </head>
     <body>
         <header>
@@ -95,21 +96,25 @@
                 <h2><span class="heading">Get in touch</span></h2>
                 <p>If you'd like to have a chat about your digital project then please get in touch!</p>
 
-                <!-- Form action and method need adding -->
+                <!-- Form messages -->
+                <div id="form-messages"></div>
 
-                <form action="form.php" method="post">
+                <!-- Form action and method need adding -->
+                <form id="ajax-contact" action="mailer.php" method="post">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Enter your full name..." maxlength="50" required>
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Enter your email address..." maxlength="50" required>
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="10" placeholder="Enter your message..." maxlength="1000" required></textarea>
-                    <input id="submit" type="submit" value="Send">
+                    <button id="submit" type="submit">Send</button>
                 </form>
             </section>
         </main>
         <footer>
             <p>Website by Gideon Goddard</p>
         </footer>
+        <script src="./resources/js/jquery-2.1.0.min.js"></script>
+        <script src="./resources/js/app.js"></script>
     </body>
 </html>
