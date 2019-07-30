@@ -138,6 +138,26 @@ button {
     cursor: pointer;
 }
 
+.success {
+    display: block;
+    color: green;
+    background-color: #ccffcc;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.error {
+    display: block;
+    color: red;
+    background-color: #ffcccc;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
 footer {
     background-color: #e87f62;
     margin: 2rem 0 0 0;
