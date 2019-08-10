@@ -97,12 +97,13 @@ nav a {
 }
 
 .project{
-    width: 220px;
-    height: 220px;
+    width: 21%;
+    height: 210px;
     margin: 0 1% 1% 0;
     display: flex;
     align-items: center;
     border: 1px solid lightgrey;
+    padding: 0 1%;
 }
 
 .project img {
@@ -194,7 +195,7 @@ footer p {
     }
 
     .project {
-        width: 265px;
+        width: 43%;
         height: 265px;
     }
 }
@@ -230,8 +231,12 @@ footer p {
         padding: 2.5%;
     }
 
+    button {
+        width: 100%;
+    }
+
     .project {
-        width: 300px;
+        width: 87%;
         height: 300px;
     }
 }
