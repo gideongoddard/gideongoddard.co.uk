@@ -162,13 +162,15 @@ button {
 footer {
     background-color: #e87f62;
     margin: 2rem 0 0 0;
+    text-align: center;
 }
 
-footer p {
-    text-align: center;
+footer p, footer i {
+    display: inline-block;
     color: white;
     padding: 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    margin-right: 5px;
 }
 
 /* RESPONSIVE STYLING */
