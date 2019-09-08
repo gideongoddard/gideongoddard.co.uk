@@ -79,6 +79,7 @@ p {
 ul {
     list-style-type: none;
     line-height: 25px;
+    margin: 15px 0;
 }
 
 .separator {
