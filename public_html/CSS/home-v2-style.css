@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(38, 38, 38, 0.5);
+    border: solid 1px #9e9e9e;
+}
+
+nav {
+    height: 60px;
+    padding: 18px 0 0 0;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 1.5%;
+    font-size: 16px;
+}
+
+section {
+    padding: 10px;
+    max-width: 650px;
+    margin: auto;
+}
+
+#banner {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-color: #0060cd;
+    color: #fff;
+    }
+
+#banner-content {
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #0060cd;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.separator {
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.chevron {
+    display: inline-block;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    padding: 5px 15px;
+    border: 1px solid white;
+}
+
+#chevron-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#intro {
+    font-weight: 900;
+}
