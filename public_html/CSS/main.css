@@ -77,8 +77,6 @@ nav a {
     color: white;
 }
 
-/* TIMELINE STYLING */
-
 .timeline-listing {
     border-bottom: 1px solid dimgrey;
     margin: 0 0 10px 0;
@@ -88,8 +86,6 @@ nav a {
     border-top: 1px solid dimgrey;
     padding-top: 10px;
 }
-
-/* END OF TIMELINE STYLING */
 
 #projects-container{
     display: flex;
