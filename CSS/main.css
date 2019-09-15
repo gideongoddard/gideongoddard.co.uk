@@ -3,6 +3,7 @@
     font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -33,6 +34,13 @@ section {
     padding: 10px;
     max-width: 650px;
     margin: auto;
+}
+
+.anchor-offset {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
 }
 
 #banner {
@@ -74,6 +82,7 @@ h3 {
 p {
     margin: 15px 0;
     line-height: 25px;
+    font-size: 16px;
 }
 
 ul {
@@ -83,8 +92,9 @@ ul {
 }
 
 .full-width-section-heading {
-    width: 650px;
+    max-width: 650px;
     margin: auto;
+    padding: 0 10px;
 }
 
 .separator {
@@ -135,4 +145,79 @@ ul {
 .logo-img {
     width: 95%;
     height: auto;
+}
+
+.success {
+    display: block;
+    color: green;
+    background-color: #ccffcc;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+
+.error {
+    display: block;
+    color: red;
+    background-color: #ffcccc;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    margin: 2px 0 20px 0;
+    font-size: 16px;
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+textarea {
+    width: 100%;
+    margin: 2px 0 20px 0;
+    padding: 10px 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+button {
+    display: block;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid #0060cd;
+    font-size: 21px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #0060cd;
+}
+
+button:hover {
+    background-color: #0060cd;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #0060cd;
+}
+
+i, footer p {
+    color: #fff;
+    display: inline-block;
+    padding: 0 3px;
 }
