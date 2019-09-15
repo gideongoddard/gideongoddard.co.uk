@@ -82,6 +82,11 @@ ul {
     margin: 15px 0;
 }
 
+.full-width-section-heading {
+    width: 650px;
+    margin: auto;
+}
+
 .separator {
     width: 200px;
     height: 2px;
@@ -104,4 +109,30 @@ ul {
 
 #intro {
     font-weight: 900;
+}
+
+#projects {
+    max-width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-container {
+    border: 1px solid lightgrey;
+    height: 300px;
+    min-width: 300px;
+    margin: 5px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 95%;
+    height: auto;
 }
