@@ -129,6 +129,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .logo-container {
