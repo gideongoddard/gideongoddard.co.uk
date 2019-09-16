@@ -127,11 +127,10 @@ ul {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     max-width: 1300px;
     margin: auto;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 
 .logo-container {
@@ -139,7 +138,7 @@ ul {
     height: 300px;
     width: 300px;
     margin: 5px;
-    display: flex;
+    display: inline-flex;
     align-content: center;
     justify-content: center;
 }
