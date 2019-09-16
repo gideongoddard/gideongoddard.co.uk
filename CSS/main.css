@@ -131,6 +131,7 @@ ul {
     justify-content: center;
     max-width: 1300px;
     margin: auto;
+    flex-direction: row;
 }
 
 .logo-container {
