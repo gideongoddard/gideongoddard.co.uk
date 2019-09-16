@@ -136,13 +136,12 @@ ul {
 .logo-container {
     border: 1px solid lightgrey;
     height: 300px;
-    min-width: 300px;
+    width: 300px;
     margin: 5px;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
-    flex-grow: 0;
 }
 
 .logo-img {
