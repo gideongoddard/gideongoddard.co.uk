@@ -141,6 +141,7 @@ ul {
     display: inline-flex;
     align-content: center;
     justify-content: center;
+    flex-flow: row wrap;
 }
 
 .logo-img {
