@@ -140,7 +140,6 @@ ul {
     margin: 5px;
     display: flex;
     align-content: center;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
