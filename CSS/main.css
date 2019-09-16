@@ -123,6 +123,7 @@ ul {
 
 #projects {
     max-width: 100%;
+    border: 1px solid red;
 }
 
 .gallery {
@@ -131,6 +132,7 @@ ul {
     justify-content: center;
     max-width: 1300px;
     margin: auto;
+    border: 1px solid black;
 }
 
 .logo-container {
