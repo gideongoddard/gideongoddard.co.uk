@@ -112,7 +112,7 @@
             <input type="email" id="email" name="email" placeholder="Enter your email address..." maxlength="50" required>
             <label for="message">Message</label>
             <textarea name="message" id="message" rows="10" placeholder="Enter your message..." maxlength="1000" required></textarea>
-            <button id="submit" type="submit"  onClick="ga('send', 'event', { eventCategory: 'form', eventAction: 'submit', eventLabel: 'contact'});">Submit</button>
+            <button id="submit" type="submit"  onClick="gtag('event', 'submit', { 'event_category' : 'form', 'event_label' : 'contact'});">Submit</button>
         </form>
     </section>
     <footer>
