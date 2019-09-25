@@ -104,19 +104,6 @@ ul {
     margin: auto;
 }
 
-.chevron {
-    display: inline-block;
-    text-align: center;
-    margin: 100px auto 0 auto;
-    padding: 5px 15px;
-    border: 1px solid white;
-}
-
-#chevron-link {
-    text-decoration: none;
-    color: #fff;
-}
-
 #intro {
     font-weight: 900;
 }
