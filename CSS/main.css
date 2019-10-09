@@ -17,7 +17,7 @@ header {
 
 nav {
     height: 60px;
-    padding: 18px 1% 0 1%;
+    padding: 18px 0.75% 0 0.75%;
     max-width: 650px;
     margin: auto;
     text-align: center;
@@ -26,8 +26,9 @@ nav {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 2.5%;
+    margin-right: 3%;
     font-size: 14px;
+    padding: 13px 0;
 }
 
 section {
