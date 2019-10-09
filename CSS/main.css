@@ -98,7 +98,7 @@ ul {
 }
 
 .separator {
-    width: 200px;
+    width: 60%;
     height: 2px;
     background-color: #fff;
     margin: auto;
@@ -117,8 +117,8 @@ ul {
 
 .logo-container {
     border: 1px solid lightgrey;
-    width: 140px;
-    height: 140px;
+    max-width: 140px;
+    max-height: 140px;
     margin: 5px;
     display: inline-flex;
     align-content: center;
@@ -187,8 +187,8 @@ i, footer p {
 
 @media only screen and (min-width: 370px) {
     .logo-container {
-        width: 150px;
-        height: 150px;
+        max-width: 150px;
+        max-height: 150px;
         margin: 10px;
     }
 }
@@ -219,6 +219,9 @@ i, footer p {
         font-size: 19px;
     }
 
+    .separator {
+        width: 45%;
+    }
     .logo-container {
         margin: 3px;
     }
@@ -235,5 +238,9 @@ i, footer p {
 
     h3 {
         font-size: 42px;
+    }
+
+    .separator {
+        width: 30%;
     }
 }
