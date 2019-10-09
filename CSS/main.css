@@ -117,8 +117,8 @@ ul {
 
 .logo-container {
     border: 1px solid lightgrey;
-    height: 145px;
-    width: 145px;
+    width: 140px;
+    height: 140px;
     margin: 5px;
     display: inline-flex;
     align-content: center;
@@ -185,6 +185,14 @@ i, footer p {
     padding: 0 3px;
 }
 
+@media only screen and (min-width: 370px) {
+    .logo-container {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     nav a {
         margin-right: 2%;
@@ -209,6 +217,10 @@ i, footer p {
 
     li {
         font-size: 19px;
+    }
+
+    .logo-container {
+        margin: 3px;
     }
 }
 
