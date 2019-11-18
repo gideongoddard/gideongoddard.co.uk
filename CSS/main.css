@@ -92,6 +92,15 @@ ul {
     margin: 15px 0;
 }
 
+li {
+    padding: 10px;
+    border: 1px solid #191b1b;
+    background-color: #e7e6e6;
+    margin: 10px 0;
+    border-radius: 3px;
+    
+}
+
 .full-width-section-heading {
     max-width: 650px;
     margin: auto;
