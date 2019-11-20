@@ -46,7 +46,7 @@ section {
 
 #home-banner {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%; /* To override the section max-width value */
     height: 100vh;
     background-color: #0060cd;
     color: #fff;
@@ -60,7 +60,7 @@ section {
 
 .banner {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%; /* To override the section max-width value */
     height: 40vh;
     background-color: #0060cd;
     color: #fff;
@@ -77,27 +77,31 @@ h1 {
     font-size: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
+    overflow-wrap: break-word;
 }
 
 h2 {
+    overflow-wrap: break-word;
     text-transform: uppercase;
     font-size: 24px;
     margin-bottom: 10px;
     padding-top: 10px;
     border-bottom: 2px solid #0060cd;
-    display: inline-block;
+    display: inline;
 }
 
 h3 {
     font-size: 21px;
     margin-bottom: 10px;
     padding-top: 10px;
+    overflow-wrap: break-word;
 }
 
 p {
     margin: 15px 0;
     line-height: 25px;
     font-size: 16px;
+    overflow-wrap: break-word;
 }
 
 ul {
@@ -107,11 +111,12 @@ ul {
 }
 
 li {
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #191b1b;
     background-color: #e7e6e6;
-    margin: 10px 0;
+    margin: 12px 0;
     border-radius: 3px;
+    overflow-wrap: break-word;
     
 }
 
@@ -129,6 +134,11 @@ li:hover {
 .breadcrumbs {
     padding: 15px 5%;
     border-bottom: 1px solid #adadad;
+    margin-bottom: 15px;
+}
+
+.crumb {
+    padding: 15px 5px;
 }
 
 .full-width-section-heading {
@@ -172,6 +182,7 @@ li:hover {
 
 label {
     display: block;
+    overflow-wrap: break-word;
 }
 
 input {
@@ -203,6 +214,7 @@ button {
     text-transform: uppercase;
     background-color: #fff;
     color: #0060cd;
+    overflow-wrap: break-word;
 }
 
 button:hover {
@@ -217,12 +229,20 @@ footer {
     height: 60px;
     text-align: center;
     background-color: #0060cd;
+    padding: 15px 0;
 }
 
-i, footer p {
+footer i {
     color: #fff;
-    display: inline-block;
-    padding: 0 3px;
+}
+
+footer p {
+    color: #fff;
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 370px) {
