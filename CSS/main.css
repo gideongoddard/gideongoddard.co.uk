@@ -10,6 +10,7 @@ header {
     width: 100%;
     height: 60px;
     position: fixed;
+    z-index: 10;
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(38, 38, 38, 0.5);
     border: solid 1px #9e9e9e;
@@ -50,6 +51,7 @@ section {
     height: 100vh;
     background-color: #0060cd;
     color: #fff;
+    margin-bottom: 20px;
     }
 
 #home-banner-content {
@@ -84,8 +86,6 @@ h2 {
     overflow-wrap: break-word;
     text-transform: uppercase;
     font-size: 24px;
-    margin-bottom: 10px;
-    padding-top: 10px;
     border-bottom: 2px solid #0060cd;
     display: inline;
 }
