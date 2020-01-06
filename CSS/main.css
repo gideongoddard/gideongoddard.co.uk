@@ -117,7 +117,8 @@ li {
     margin: 12px 0;
     border-radius: 3px;
     overflow-wrap: break-word;
-    
+    transition-property: border, background-color, font-weight;
+    transition-duration: 500ms;
 }
 
 ul a {
@@ -128,7 +129,6 @@ ul a {
 li:hover {
     border: 1px solid #0060cd;
     background-color: #fff;
-    font-weight: 600;
 }
 
 .breadcrumbs {
@@ -215,6 +215,8 @@ button {
     background-color: #fff;
     color: #0060cd;
     overflow-wrap: break-word;
+    transition-property: background-color, color;
+    transition-duration: 500ms;
 }
 
 button:hover {
