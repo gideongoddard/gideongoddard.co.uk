@@ -178,6 +178,11 @@ footer {
     color: var(--color-2);
 }
 
+.home-link {
+    display: inline-block;
+    margin: 20px 0 0 0;
+}
+
 @media only screen and (min-width: 768px) {
     #home-banner {
         flex-direction: row;
