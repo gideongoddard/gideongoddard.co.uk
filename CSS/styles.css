@@ -41,7 +41,8 @@ body {
 
 h1 {
     font-size: var(--type-xxx-large);
-    text-decoration: underline var(--color-4);
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-4);
 }
 
 h2 {
