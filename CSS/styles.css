@@ -78,7 +78,6 @@ a {
     color: var(--color-4);
     text-decoration: none;
     font-weight: 500;
-    line-height: var(--type-height);
 }
 
 a:hover {
@@ -112,7 +111,7 @@ main {
     width: 100%;
 }
 
-section {
+section, main {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto 50px auto;
@@ -182,6 +181,10 @@ footer {
 .home-link {
     display: inline-block;
     margin: 20px 0 0 0;
+}
+
+.web-work {
+    max-width: 500px;
 }
 
 @media only screen and (min-width: 768px) {
