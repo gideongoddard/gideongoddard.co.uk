@@ -69,7 +69,7 @@ h6 {
     font-weight: 500;
 }
 
-p, li, input, textarea, button {
+p, li, input, textarea, button, blockquote {
     font-size: var(--type-medium);
     line-height: var(--type-height);
 }
@@ -133,6 +133,13 @@ button {
     color: var(--color-6);
     font-weight: 600;
     cursor: pointer;
+}
+
+blockquote {
+    border-left: 7px solid var(--color-6);
+    padding: 20px;
+    background-color: #dddddda2;
+    margin: 0;
 }
 
 footer {
