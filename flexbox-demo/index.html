@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./resources/main.css">
+</head>
+<body>
+    <h1>Flexbox Demos</h1>
+    <h2>justify-content</h2>
+    <h3>flex-start</h3>
+    <div class="container" id="justify-flex-start">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>flex-end</h3>
+    <div class="container" id="justify-flex-end">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>center</h3>
+    <div class="container" id="justify-center">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>space-around</h3>
+    <div class="container" id="justify-space-around">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>space-between</h3>
+    <div class="container" id="justify-space-between">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h2>align-items</h2>
+    <h3>flex-start</h3>
+    <div class="container" id="align-flex-start">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>flex-end</h3>
+    <div class="container" id="align-flex-end">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>center</h3>
+    <div class="container" id="align-center">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>baseline</h3>
+    <div class="container" id="align-baseline">
+        <div class="box"></div>
+        <div class="box" id="long-box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>stretch</h3>
+    <div class="container" id="align-stretch">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h2>flex-grow</h2>
+    <div class="container" id="flex-grow">
+        <div class="box"></div>
+        <div class="box" id="grow1"></div>
+        <div class="box" id="grow2"></div>
+    </div>
+    <h2>flex-shrink</h2>
+    <div class="container" id="flex-shrink">
+        <div class="box wide" id="shrink0"></div>
+        <div class="box wide"></div>
+        <div class="box wide" id="shrink2"></div>
+    </div>
+    <h2>flex-basis</h2>
+    <div class="container" id="flex-basis-grow">
+        <div class="box"></div>
+        <div class="box" id="basis-grow"></div>
+        <div class="box"></div>
+    </div>
+    <br>
+    <div class="container" id="flex-basis-shrink">
+        <div class="box"></div>
+        <div class="box" id="basis-shrink"></div>
+        <div class="box"></div>
+    </div>
+    <h2>flex</h2>
+    <div class="container" id="flex">
+        <div class="box" id="flex1"></div>
+        <div class="box" id="flex2"></div>
+        <div class="box" id="flex3"></div>
+    </div>
+    <h2>flex-wrap</h2>
+    <h3>wrap</h3>
+    <div class="container" id="wrap">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>wrap-reverse</h3>
+    <div class="container" id="wrap-reverse">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h2>align-content</h2>
+    <h3>flex-start</h3>
+    <div class="container wrap" id="align-content-flex-start">
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+    </div>
+    <h3>flex-end</h3>
+    <div class="container wrap" id="align-content-flex-end">
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+    </div>
+    <h3>center</h3>
+    <div class="container wrap" id="align-content-center">
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+    </div>
+    <h3>space-between</h3>
+    <div class="container wrap" id="align-content-space-between">
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+    </div>
+    <h3>space-around</h3>
+    <div class="container wrap" id="align-content-space-around">
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+    </div>
+    <h3>stretch</h3>
+    <div class="container wrap" id="align-content-stretch">
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+        <div class="box wide"></div>
+    </div>
+    <h2>flex-direction</h2>
+    <h3>row</h3>
+    <div class="container" id="flex-direction-row">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>row-reverse</h3>
+    <div class="container" id="flex-direction-row-reverse">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>column</h3>
+    <div class="container" id="flex-direction-column">
+        <div class="box"><span>1</span></div>
+        <div class="box"><span>2</span></div>
+        <div class="box"><span>3</span></div>
+    </div>
+    <h3>column-reverse</h3>
+    <div class="container" id="flex-direction-column-reverse">
+        <div class="box"><span>1</span></div>
+        <div class="box"><span>2</span></div>
+        <div class="box"><span>3</span></div>
+    </div>
+    <h2>flex-flow</h2>
+    <div class="container" id="flex-flow">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h2>Nested Flexboxes</h2>
+    <div class="container" id="nested">
+        <div id="nested1">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div id="nested2">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+</html>
