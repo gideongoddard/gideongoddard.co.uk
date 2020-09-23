@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:  0;
+    background: #F0F0F0;
+}
+
+header {
+    margin: 0;
+    background-image: url(img/mountain-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+main {
+    padding: 20px 7% 20px 7%;
+}
+
+.intro {
+    margin: 50px 1% 50px 1%;
+    font-family: arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+ul {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit,
+        minmax(325px, 1fr));
+    grid-gap: 1.5rem 2rem;
+    margin: 0 1.5rem 20px -1.5rem;
+}
+
+li {
+    /* are Grid items */
+    display: flex;
+    flex-flow: column;
+    border: 1px solid rgba(0,0,0,0.14);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.14);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.14);
+}
+
+h2, p {
+    padding: 0 10px 0 10px;
+    font-family: arial, sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    padding: 15px;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+    font-family: arial, sans-serif;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 425px;
+    font-size: 3rem;
+}
+
+img {
+    order: -1;
+    width: auto;
+    height: 225px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: -20px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+@media only screen and (max-width: 446px) {
+    .intro {
+        margin-top: 100px;
+    }
+}
