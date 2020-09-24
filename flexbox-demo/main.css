@@ -1,20 +1,42 @@
 body {
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin: auto;
-    font-family: monospace;
+    font-family: 'Raleway', sans-serif;
     padding-bottom: 50px;
 }
 
+header {
+    max-width: 1000px;
+    margin: auto;
+}
+
 h1 {
-    margin-top: 30px;
     text-align: center;
 }
 
 h2 {
-    margin-top: 20px;
-    border-bottom: 2px solid blue;
-    display: inline-block;
+    padding: 5px 0;
+    border-bottom: 1px solid hsl(0, 0%, 70%);
 }
+
+code {
+    background-color: hsl(0, 0%, 80%);
+    font-size: 16px;
+    padding: 0 2px;
+    color: hsl(0, 80%, 65%);
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+.callout {
+    background-color: hsl(230, 80%, 92%);
+    padding: 10px 20px;
+    border-left: 5px solid hsl(230, 80%, 50%);
+}
+
 .container {
     background-color: antiquewhite;
     display: flex;
@@ -23,15 +45,22 @@ h2 {
 }
 
 .box {
-    width: 200px;
+    width: 90px;
+    min-width: 75px;
     min-height: 100px;
     background-color: blue;
     border: 1px solid lightgray;
     margin: 2px;
+
+    /* For the box numbering */
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .wide {
-    width: 500px;
+    width: 400px;
 }
 
 .wrap {
@@ -95,12 +124,16 @@ h2 {
     flex-grow: 2;
 }
 
-#shrink0 {
-    flex-shrink: 0;
+#shrink1 {
+    flex-shrink: 1;
 }
 
 #shrink2 {
     flex-shrink: 2;
+}
+
+#shrink3 {
+    flex-shrink: 3;
 }
 
 #basis-grow {
